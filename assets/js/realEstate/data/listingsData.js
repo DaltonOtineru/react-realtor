@@ -75,13 +75,37 @@ var listingsData = [
 		address: '1250 PB Dr.',
 		city: 'Los Angeles',
 		state: 'CA',
-		rooms: 6,
+		rooms: 0,
 		price: 3000000,
-		floorSpace: 4000,
+		floorSpace: 600,
 		extras: ['pool', 'gym'],
 		homeType: 'Studio',
 		image:
 			'https://cdn.shopify.com/s/files/1/0043/8471/8938/products/163604829176012541_812x.jpg?v=1637609172'
+	},
+	{
+		address: '1459 Main St',
+		city: 'Houston',
+		state: 'Texas',
+		rooms: 1,
+		price: 1000,
+		floorSpace: 400,
+		extras: [],
+		homeType: 'Room',
+		image:
+			'https://lasvegasliving.mytouchtour.com/blog/wp-content/uploads/2014/06/Firenze-Apartments.jpg'
+	},
+	{
+		address: '2186 Valley View Blvd.',
+		city: 'Brooklyn',
+		state: 'New York',
+		rooms: 2,
+		price: 776000,
+		floorSpace: 1400,
+		extras: ['elevator'],
+		homeType: 'House',
+		image:
+			'https://ssl.cdn-redfin.com/photo/48/mbpaddedwide/806/genMid.140056806_2.jpg'
 	}
 ];
 
