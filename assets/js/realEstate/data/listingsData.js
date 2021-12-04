@@ -1,21 +1,21 @@
 var listingsData = [
 	{
 		address: '2034 Grand Ave.',
-		city: 'RidgeWood',
+		city: 'Ridgewood',
 		state: 'NY',
 		rooms: 3,
 		price: 220000,
-		floorSpace: 2000,
+		floorSpace: 1200,
 		extras: ['elevator', 'gym'],
-		homeType: 'Apartment',
+		homeType: 'Condo',
 		image:
 			'https://images1.apartments.com/i2/wPq2iTReQ5G80C7VRvK4uYMde8jQIcKx6Bsoh6_L5mQ/117/the-oaks-apartments-santee-ca-building-photo.jpg'
 	},
 	{
 		address: '2186 Valley View Blvd.',
-		city: 'El Cajon',
+		city: 'San Diego',
 		state: 'CA',
-		rooms: 4,
+		rooms: 2,
 		price: 650000,
 		floorSpace: 2356,
 		extras: ['pool'],
@@ -25,7 +25,7 @@ var listingsData = [
 	},
 	{
 		address: '11008 Collinwood Dr.',
-		city: 'Santee',
+		city: 'Miami',
 		state: 'CA',
 		rooms: 5,
 		price: 465000,
@@ -36,22 +36,22 @@ var listingsData = [
 	},
 
 	{
-		address: '1860 Flume Dr.',
-		city: 'El Cajon',
+		address: '1866 Flume Dr.',
+		city: 'San Diego',
 		state: 'CA',
-		rooms: 6,
+		rooms: 4,
 		price: 780000,
 		floorSpace: 2540,
 		extras: ['pool'],
-		homeType: 'Apartment',
+		homeType: 'House',
 		image:
 			'https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
 	},
 	{
 		address: '1459 Main St',
-		city: 'Lemon Grove',
+		city: 'Miami',
 		state: 'CA',
-		rooms: 7,
+		rooms: 5,
 		price: 356000,
 		floorSpace: 1450,
 		extras: [],
@@ -63,11 +63,23 @@ var listingsData = [
 		address: '1250 PB Dr.',
 		city: 'Los Angeles',
 		state: 'CA',
-		rooms: 10,
+		rooms: 6,
 		price: 3000000,
 		floorSpace: 4000,
 		extras: ['pool', 'gym'],
-		homeType: 'House',
+		homeType: 'Apartment',
+		image:
+			'https://cdn.shopify.com/s/files/1/0043/8471/8938/products/163604829176012541_812x.jpg?v=1637609172'
+	},
+	{
+		address: '1250 PB Dr.',
+		city: 'Los Angeles',
+		state: 'CA',
+		rooms: 6,
+		price: 3000000,
+		floorSpace: 4000,
+		extras: ['pool', 'gym'],
+		homeType: 'Studio',
 		image:
 			'https://cdn.shopify.com/s/files/1/0043/8471/8938/products/163604829176012541_812x.jpg?v=1637609172'
 	}
